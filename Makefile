@@ -17,8 +17,8 @@ run:
 	$(container-name)
 
 clean:
-	docker stop $(container-name)
-	docker rm $(container-name)
+	-docker stop $(container-name)
+	-docker rm $(container-name)
 
 peek:
 	docker exec -it $(container-name) /bin/bash
