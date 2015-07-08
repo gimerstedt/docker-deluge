@@ -1,8 +1,8 @@
 image-name = deluge
 container-name = $(image-name)
 
-download-path = /mnt/big-sata/rtorrent/downloads
-torrents-path = /mnt/big-sata/rtorrent/watch
+download-path = /mnt/big-sata/downloads
+torrents-path = /mnt/big-sata/torrents
 
 deluge-web-port = 9092
 
