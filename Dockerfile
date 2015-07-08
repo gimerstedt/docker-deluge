@@ -1,4 +1,5 @@
 from phusion/baseimage
+maintainer rickard@gimerstedt.se
 
 # use baseimage-docker's init system.
 cmd ["/sbin/my_init"]
